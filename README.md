@@ -20,6 +20,16 @@ En el repositorio destinado para tal fin en el examen.
 | Documentos | [Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/tree/main/documents/ModeloDeDominio.pdf) |
 | dd |  pp |
 
+| Columna 1     | Columna 2     |
+|---------------|---------------|
+| Fila 1, Col 1 | Fila 1, Col 2 |
+| Fila 2, Col 1 | Fila 2, Col 2 |
+| Fila 3, Col 1 | Fila 3, Col 2 |
+| Fila 4, Col 1 | Fila 4, Col 2 |
+| Fila 5, Col 1 | Fila 5, Col 2 |
+| Fila 6, Col 1 | Fila 6, Col 2 |
+
+
 ### Artefactos
 
 A continuación una lista de artefactos que habitualmente constituyen la entrega de un examen:
