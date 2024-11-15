@@ -1,0 +1,68 @@
+@startuml diagramaDeObjetosMejora1
+
+object inicioSesionEjemplo {
+    correo = "usuario@example.com"
+    contraseña = "********"
+}
+
+object usuarioEjemplo {
+    nombre = "Juan Pérez"
+    controlParental = "Activado"
+}
+
+object recomendacionesEjemplo {
+    listaDeVideos = ["suits", "the resident"]
+    categoría = "Accion"
+}
+
+object buscadorEjemplo {
+    búsqueda = "Películas de comedia"
+}
+
+object videoEjemplo {
+    resolución = "1080p"
+    nombre = "Suits"
+    tipo = "Serie"
+}
+
+object pistaDeAudioEjemplo {
+    idioma = "Español"
+    calidad = "Estéreo"
+}
+
+object subtitulosEjemplo {
+    idioma = "Inglés"
+    color = "Blanco"
+    tamaño = "Mediano"
+    fuente = "Arial"
+}
+
+object streamingEjemplo {
+    categorias = ["Just Chatting"]
+}
+
+object watchlistEjemplo {
+    listaDeVideos = ["suits", "The Resident"]
+}
+
+object suscripcionEjemplo {
+    plan = "Premium"
+    dispositivosPermitidos = 4
+}
+
+inicioSesionEjemplo --> usuarioEjemplo : inicia sesión
+usuarioEjemplo --> recomendacionesEjemplo : accede
+usuarioEjemplo --> watchlistEjemplo : utiliza
+usuarioEjemplo --> streamingEjemplo : configura
+usuarioEjemplo --> buscadorEjemplo : utiliza
+usuarioEjemplo --> videoEjemplo : reproduce
+
+recomendacionesEjemplo --> videoEjemplo : incluye
+watchlistEjemplo --> videoEjemplo : contiene
+buscadorEjemplo --> videoEjemplo : encuentra
+
+videoEjemplo -- pistaDeAudioEjemplo : tiene
+videoEjemplo -- subtitulosEjemplo : tiene
+videoEjemplo --> suscripcionEjemplo : depende
+
+@enduml
