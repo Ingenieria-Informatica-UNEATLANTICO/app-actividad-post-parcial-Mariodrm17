@@ -8,10 +8,10 @@
 
 | Diagrama | Código Fuente |
 |----------|---------------|
-| ![Diagrama de Objetos](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost/DiagramaDeObjetospost.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeObjetos.puml) |
+| ![Diagrama de Objetos](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost/DiagramaDeObjetosPost.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeObjetos.puml) |
 
 # Diagrama de Estados
 
 | Diagrama | Código Fuente |
 |----------|---------------|
-| ![Diagrama de Estados](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost/DiagramaDeEstadospost.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeEstados.puml) |
+| ![Diagrama de Estados](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost/DiagramaDeEstadosPost.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeEstados.puml) |
