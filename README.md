@@ -15,6 +15,10 @@ Indicados dentro del enunciado del examen.
 
 En el repositorio destinado para tal fin en el examen.
 
+## Entrega examen post parcial
+
+|Documentos|[Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/documents/ParcialEscaneado.pdf)
+
 ### Artefactos
 
 A continuación una lista de artefactos que habitualmente constituyen la entrega de un examen:
