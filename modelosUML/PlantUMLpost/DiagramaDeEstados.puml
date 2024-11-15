@@ -1,0 +1,25 @@
+@startuml Diagrama_de_estados_Reducido
+
+[*] --> Inicio : Abrir la aplicación
+
+Inicio --> Registro : Elegir "Registrarse"
+Inicio --> InicioDeSesion : Elegir "Iniciar sesión"
+Registro --> InicioDeSesion : Registro exitoso
+
+InicioDeSesion --> ErrorSesion : Credenciales inválidas
+ErrorSesion --> InicioDeSesion : Reintentar
+InicioDeSesion --> AccesoContenidos : Sesión iniciada
+
+AccesoContenidos : Menú principal
+AccesoContenidos --> Reproduccion : Seleccionar video
+AccesoContenidos --> Configuracion : Ajustar preferencias
+AccesoContenidos --> CerrarSesion : Finalizar sesión
+
+Reproduccion : Reproduciendo video
+Reproduccion --> Pausar : Pausar reproducción
+Reproduccion --> AccesoContenidos : Detener reproducción
+Pausar --> Reproduccion : Reanudar
+
+CerrarSesion --> Inicio : Sesión cerrada
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml Diagrama_de_clases
+
+
+
+class Video {
+  - nombre
+  - tipo
+  - calidad
+}
+
+class Perfil {
+  - nombre
+}
+
+class InicioDeSesion {
+  - correo
+  - contraseña
+}
+
+class PaginaPrincipal {
+  - categorias
+}
+
+class Buscador {
+  - busqueda
+}
+
+class MiLista {
+  - lista
+}
+
+class Suscripcion {
+  - plan
+}
+
+class PistaDeAudio {
+  - idioma
+}
+
+class Subtitulos {
+  - idioma
+  - color
+  - tamaño
+  - fuente
+}
+
+class Streaming {
+  - categorias
+}
+
+InicioDeSesion --> Perfil : inicia sesión
+Streaming --> Video : accede a
+Perfil --> Suscripcion : tiene
+Perfil --> PaginaPrincipal : accede
+PaginaPrincipal --> Video : accede a
+PaginaPrincipal --> Buscador : utiliza
+PaginaPrincipal --> MiLista : utiliza
+PaginaPrincipal --> Streaming : tiene
+Video -- PistaDeAudio : tiene
+Video -- Subtitulos : tiene
+Video -> Suscripcion : depende
+Buscador --> Video : accede a
+MiLista --> Video : accede a
+
+@enduml

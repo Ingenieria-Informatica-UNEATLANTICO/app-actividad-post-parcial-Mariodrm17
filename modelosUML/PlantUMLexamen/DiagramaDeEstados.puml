@@ -1,0 +1,12 @@
+@startuml Diagrama_de_estados
+
+[*] --> SinAcceso 
+
+SinAcceso --> InicioDeSesion
+SinAcceso --> Registro
+Registro --> InicioDeSesion
+InicioDeSesion --> AccesoContenidos
+AccesoContenidos --> [*]
+
+
+@enduml

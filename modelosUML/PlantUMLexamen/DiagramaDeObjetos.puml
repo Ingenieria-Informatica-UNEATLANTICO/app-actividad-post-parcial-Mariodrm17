@@ -1,0 +1,62 @@
+@startuml Diagrama_de_objetos
+
+object video1 {
+  nombre = "Matrix"
+  tipo = "Ciencia Ficción"
+  calidad = "HD"
+}
+
+object perfil1 {
+  nombre = "Usuario1"
+}
+
+object inicioSesion1 {
+  correo = "usuario1@example.com"
+  contraseña = "12345"
+}
+
+object paginaPrincipal1 {
+  categorias = ["Acción", "Drama", "Comedia"]
+}
+
+object buscador1 {
+  busqueda = "Películas de acción"
+}
+
+object miLista1 {
+  lista = ["Matrix", "Inception"]
+}
+
+object suscripcion1 {
+  plan = "Premium"
+}
+
+object pistaAudio1 {
+  idioma = "Español"
+}
+
+object subtitulos1 {
+  idioma = "Inglés"
+  color = "Blanco"
+  tamaño = "Mediano"
+  fuente = "Arial"
+}
+
+object streaming1 {
+  categorias = ["Películas", "Series"]
+}
+
+inicioSesion1 --> perfil1 : inicia sesión
+perfil1 --> suscripcion1 : tiene
+perfil1 --> paginaPrincipal1 : accede
+paginaPrincipal1 --> video1 : accede a
+paginaPrincipal1 --> buscador1 : utiliza
+paginaPrincipal1 --> miLista1 : utiliza
+paginaPrincipal1 --> streaming1 : tiene
+video1 -- pistaAudio1 : tiene
+video1 -- subtitulos1 : tiene
+video1 -> suscripcion1
+buscador1 --> video1 : encuentra
+miLista1 --> video1 : contiene
+
+@enduml
