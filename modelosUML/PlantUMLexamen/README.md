@@ -2,10 +2,16 @@
 
 | Diagrama | Código Fuente |
 |----------|---------------|
-| ![Actores](https://github.com/celiabecerril/24-25-IdSw1-SDR/blob/main/Documentos/Imagenes/actores_evas.svg) | [Ver código](https://github.com/celiabecerril/24-25-IdSw1-SDR/blob/main/Documentos/Actores/Actores.puml) |
+| ![Diagrama de Clases](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaExamen/DiagramaDeClasesExamen.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeClases.puml) |
 
-# Encontrar casos de uso 
+# Diagrama de Objetos 
 
 | Diagrama | Código Fuente |
 |----------|---------------|
-| ![Casos de uso](https://github.com/celiabecerril/24-25-IdSw1-SDR/blob/main/Documentos/Imagenes/CasosDeUso.svg) | [Ver código](https://github.com/celiabecerril/24-25-IdSw1-SDR/blob/main/Documentos/CasosUso/CasosUso.puml) |
+| ![Diagrama de Objetos](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaExamen/DiagramaDeObjetosExamen.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeObjetos.puml) |
+
+# Diagrama de Estados
+
+| Diagrama | Código Fuente |
+|----------|---------------|
+| ![Diagrama de Estados](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaExamen/DiagramaDeEstadosExamen.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/DiagramaDeEstados.puml) |
