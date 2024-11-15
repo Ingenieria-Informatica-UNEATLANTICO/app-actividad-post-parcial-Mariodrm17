@@ -17,7 +17,8 @@ En el repositorio destinado para tal fin en el examen.
 
 ## Entrega examen post parcial
 
-|Documentos|[Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/tree/main/documents/ModeloDeDominio.pdf) |
+| Documentos | [Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/tree/main/documents/ModeloDeDominio.pdf) |
+| dd |  pp |
 
 ### Artefactos
 
