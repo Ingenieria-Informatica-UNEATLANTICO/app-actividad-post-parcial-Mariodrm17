@@ -7,6 +7,8 @@
 | Documentos | [Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/tree/main/documents/ModeloDeDominio.pdf) |
 | PlantUML examen | [Ver PUML](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/README.md) |
 | PlantUML postExamen | [Ver PUML](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLpost/Readme.md) |
+| PlantUML postExamen2 | [Ver PUML](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLpost2/Readme.md) |
+
 
 
 
