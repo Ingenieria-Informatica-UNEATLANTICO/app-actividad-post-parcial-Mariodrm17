@@ -8,6 +8,6 @@
 
 | Diagrama | Código Fuente |
 |----------|---------------|
-| ![Diagrama de Objetos](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost/DiagramaDeObjetosPost2.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLpost2/DiagramaDeObjetos.puml) |
+| ![Diagrama de Objetos](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/images/CarpetaPost2/DiagramaDeObjetosPost2.svg) | [Ver código](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLpost2/DiagramaDeObjetos.puml) |
 
 
