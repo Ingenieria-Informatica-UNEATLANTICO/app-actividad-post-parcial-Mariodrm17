@@ -1,0 +1,68 @@
+@startuml diagramaDeObjetosMejora1
+
+object inicioSesionEjemplo {
+    correo = "usuario@example.com"
+    contraseña = "********"
+}
+
+object usuarioEjemplo {
+    nombre = "Juan Pérez"
+    controlParental = "Activado"
+}
+
+object recomendacionesEjemplo {
+    listaDeVideos = ["suits", "the resident"]
+    categoría = "Accion"
+}
+
+object buscadorEjemplo {
+    búsqueda = "Películas de comedia"
+}
+
+object videoEjemplo {
+    resolución = "1080p"
+    nombre = "Suits"
+    tipo = "Serie"
+}
+
+object pistaDeAudioEjemplo {
+    idioma = "Español"
+    calidad = "Estéreo"
+}
+
+object subtitulosEjemplo {
+    idioma = "Inglés"
+    color = "Blanco"
+    tamaño = "Mediano"
+    fuente = "Arial"
+}
+
+object streamingEjemplo {
+    categorias = ["Just Chatting"]
+}
+
+object watchlistEjemplo {
+    listaDeVideos = ["suits", "The Resident"]
+}
+
+object suscripcionEjemplo {
+    plan = "Premium"
+    dispositivosPermitidos = 4
+}
+
+inicioSesionEjemplo "1" --> "1" usuarioEjemplo : inicia sesión
+usuarioEjemplo "1" --> "N" recomendacionesEjemplo : accede
+usuarioEjemplo "1" --> "N" watchlistEjemplo : utiliza
+usuarioEjemplo "1" -- "1" streamingEjemplo : configura
+usuarioEjemplo "1" --> "N" buscadorEjemplo : utiliza
+usuarioEjemplo "1" --> "N" videoEjemplo : reproduce
+
+recomendacionesEjemplo "1" --> "N" videoEjemplo : incluye
+watchlistEjemplo "1" --> "N" videoEjemplo : contiene
+buscadorEjemplo "1" --> "N" videoEjemplo : encuentra
+
+videoEjemplo "1" -- "N" pistaDeAudioEjemplo : tiene
+videoEjemplo "1" -- "N" subtitulosEjemplo : tiene
+videoEjemplo "1" --> "1" suscripcionEjemplo : depende
+
+@enduml
