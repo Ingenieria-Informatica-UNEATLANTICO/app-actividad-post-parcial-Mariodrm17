@@ -21,7 +21,7 @@ En el repositorio destinado para tal fin en el examen.
 |---------------|---------------|
 | Documentos | [Parcial PDF](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/tree/main/documents/ModeloDeDominio.pdf) |
 | PlantUML examen | [Ver PUML](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLexamen/README.md) |
-| PlantUML postExamen | [Ver PUML] |
+| PlantUML postExamen | [Ver PUML](https://github.com/Ingenieria-Informatica-UNEATLANTICO/app-actividad-post-parcial-Mariodrm17/blob/main/modelosUML/PlantUMLpost/README.md) |
 | Fila 4, Col 1 | Fila 4, Col 2 |
 | Fila 5, Col 1 | Fila 5, Col 2 |
 | Fila 6, Col 1 | Fila 6, Col 2 |
